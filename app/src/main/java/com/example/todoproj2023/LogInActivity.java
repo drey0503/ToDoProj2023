@@ -5,7 +5,7 @@ public class LogInActivity {
     private String password;
 
     public Boolean checkLogin(String username, String password) {
-        if ()
+
         return null;
     }
     private void createAccount() {
