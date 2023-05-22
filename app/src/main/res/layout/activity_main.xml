@@ -12,19 +12,20 @@
         android:layout_height="wrap_content"
         android:text="SUN"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintEnd_toStartOf="@+id/monday"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
+
     <TextView
         android:id="@+id/monday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MON"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintEnd_toStartOf="@+id/tuesday"
+        app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
@@ -36,7 +37,7 @@
         android:text="TUE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
@@ -48,10 +49,11 @@
         android:text="WED"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toEndOf="@+id/tuesday"
+        app:layout_constraintTop_toBottomOf="@+id/month"
+        app:layout_constraintVertical_bias="0.046" />
+
     <TextView
         android:id="@+id/thursday"
         android:layout_width="wrap_content"
@@ -59,10 +61,11 @@
         android:text="THU"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/wednesday"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
+
     <TextView
         android:id="@+id/friday"
         android:layout_width="wrap_content"
@@ -70,10 +73,11 @@
         android:text="FRI"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toEndOf="@+id/thursday"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
+
     <TextView
         android:id="@+id/saturday"
         android:layout_width="wrap_content"
@@ -81,8 +85,8 @@
         android:text="SAT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toEndOf="@+id/friday"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
 
@@ -90,7 +94,7 @@
         android:id="@+id/month"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="January"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
